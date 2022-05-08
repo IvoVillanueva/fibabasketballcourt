@@ -1,6 +1,6 @@
  ##Draw court
   width = 15
-  height = 14
+  height = 28/2
   key_height = 5.8
   inner_key_width = 3.6
   outer_key_width = 4.9
@@ -10,7 +10,7 @@
   hoop_radius = 0.30
   hoop_center_y = backboard_offset + neck_length + hoop_radius
   three_point_radius = 6.75
-  three_point_side_radius = 6.70
+  three_point_side_radius = 6.75
   three_point_side_height = 2.99
   
  circle_points = function(center = c(0, 0), radius = 1, npoints = 360) {
