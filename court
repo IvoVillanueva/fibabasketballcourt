@@ -6,12 +6,12 @@
   outer_key_width = 4.9
   backboard_width = 1.8
   backboard_offset = 1.2
-  neck_length = 0.15
-  hoop_radius = 0.45
+  neck_length = 0.12
+  hoop_radius = 0.30
   hoop_center_y = backboard_offset + neck_length + hoop_radius
   three_point_radius = 6.75
   three_point_side_radius = 6.70
-  three_point_side_height = 2.9
+  three_point_side_height = 2.99
   
   circle_points = function(center = c(0, 0), radius = 1, npoints = 360) {
     angles = seq(0, 2 * pi, length.out = npoints)
