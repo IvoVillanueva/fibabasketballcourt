@@ -10,7 +10,7 @@
   hoop_radius = 0.75/3.2808
   hoop_center_y = backboard_offset + neck_length + hoop_radius
   three_point_radius = 22.24/3.2808
-  three_point_side_radius = 21.5/3.2808
+  three_point_side_radius = 21.65/3.2808
   three_point_side_height = 9.809711/3.2808
   
  circle_points = function(center = c(0, 0), radius = 1, npoints = 360) {
