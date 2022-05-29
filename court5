@@ -38,7 +38,7 @@ foul_circle_bottom = filter(foul_circle, y < key_height) %>% mutate(desc = "foul
 
 # define hoop
 hoop = circle_points(center = c(0, hoop_center_y), radius = hoop_radius) %>% mutate(desc = "hoop") 
-restricted = circle_points(center = c(0, hoop_center_y), radius = 1.25*1000) %>%
+restricted = circle_points(center = c(0, hoop_center_y), radius = 1.25) %>%
   filter(y >= hoop_center_y) %>%
   mutate(desc = "restricted")
 
