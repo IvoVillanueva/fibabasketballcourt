@@ -32,6 +32,7 @@ court_points = data.frame(
 )
 
 court_points <- court_points %>% filter(desc != "perimeter")
+
 # define foul circle
 foul_circle = circle_points(center = c(0, key_height), radius = inner_key_width / 2)
 foul_circle_top = filter(foul_circle, y > key_height) %>% mutate(desc = "foul_circle_top")
