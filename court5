@@ -18,7 +18,7 @@
   return(data.frame(x = center[1] + radius * cos(angles),
                     y = center[2] + radius * sin(angles)))
 }
-#
+
 court_points = data.frame(
   x = c(width / 2, width / 2, -width / 2, -width / 2, width / 2, 
         outer_key_width / 2, outer_key_width / 2, -outer_key_width / 2, -outer_key_width / 2,
